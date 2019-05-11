@@ -1,21 +1,17 @@
 # RESTfulWS
 a) Instalación
-- Descargar paquete de archivos
-- Abrir el archivo WAR
-- (Recomendacion: Tener JAVA8 Instalado)
-- El programa se ejecutará automaticamente (sin necesidad de instalar dependencias).
-
+- Descarga el War
+- Configura [Tomcat](http://tomcat.apache.org) , si es la primera vez que corres un WAR visita el siguiente [link](https://docs.bmc.com/docs/brid/1805/deploying-the-war-file-on-tomcat-805358008.html) para entender que hacer
+- Visita https://localhost:####/utm/api/v1/ (#### es el puerto que tengas configurado en tu Tomcat)
+- Ya puedes navegar por la rest api
+ 
 b) Uso
-- Abrir el programa.
-- Seleccionar la acción o el servicio que se desea ejecutar.
-- Seleccionar archivos, directorios o usuarios dependiendo de la acción.
-- Seguir los pasos para obtener los resultados del servicio.
+- La aplicacion permite ver usuarios registrados con su nombre y contraseña.
+- Directorios y archivos guardados y el path para llegar a ellos.
+- Y por ultimo notificaciones
 
 c) Créditos
-Alejandro Ivan Rodríguez García
-2686432
-Universidad Tec Milenio Campus Las Torres
-ZURIEL DATHAN MORA FELIX
+- David Alan Salazar Gonzalez | Tecmilenio
 
 d) Licencia 
-Producto lanzado con licencia libre.
+- Sin licencia
